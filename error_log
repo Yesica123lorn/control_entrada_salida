@@ -1,0 +1,40 @@
+[16-May-2024 09:17:48 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY' in /home/coretick/sis.coreticket.co/registro.php:52
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/registro.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/registro.php on line 52
+[16-May-2024 09:18:01 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY' in /home/coretick/sis.coreticket.co/registro.php:52
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/registro.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/registro.php on line 52
+[16-May-2024 09:18:05 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY' in /home/coretick/sis.coreticket.co/registro.php:52
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/registro.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/registro.php on line 52
+[16-May-2024 09:18:27 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY' in /home/coretick/sis.coreticket.co/registro.php:52
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/registro.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/registro.php on line 52
+[16-May-2024 09:20:19 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY' in /home/coretick/sis.coreticket.co/registro.php:52
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/registro.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/registro.php on line 52
+[16-May-2024 09:20:55 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY' in /home/coretick/sis.coreticket.co/registro.php:52
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/registro.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/registro.php on line 52
+[20-May-2024 22:20:16 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '>= 1' at line 1 in /home/coretick/sis.coreticket.co/registro.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/registro.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/registro.php on line 14
+[20-May-2024 22:20:27 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '>= 1' at line 1 in /home/coretick/sis.coreticket.co/registro.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/registro.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/registro.php on line 14

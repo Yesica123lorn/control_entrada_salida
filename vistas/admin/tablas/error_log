@@ -1,0 +1,120 @@
+[17-May-2024 00:21:21 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'rol.id_rol' in 'on clause' in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:18
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(18): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 18
+[17-May-2024 00:22:28 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id_rol' in where clause is ambiguous in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:18
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(18): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 18
+[17-May-2024 00:22:37 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id_rol' in where clause is ambiguous in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:18
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(18): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 18
+[17-May-2024 00:29:43 America/New_York] PHP Fatal error:  Uncaught Error: Class "BarcodeGeneratorPNG" not found in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 73
+[17-May-2024 00:29:47 America/New_York] PHP Fatal error:  Uncaught Error: Class "BarcodeGeneratorPNG" not found in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 73
+[17-May-2024 00:30:44 America/New_York] PHP Fatal error:  Uncaught Error: Class "BarcodeGeneratorPNG" not found in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 73
+[17-May-2024 00:30:51 America/New_York] PHP Fatal error:  Uncaught Error: Class "BarcodeGeneratorPNG" not found in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 73
+[17-May-2024 00:30:51 America/New_York] PHP Fatal error:  Uncaught Error: Class "BarcodeGeneratorPNG" not found in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 73
+[17-May-2024 00:38:10 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'coretick_sis'@'localhost' for table `estados`.`id_estados` in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 14
+[17-May-2024 00:38:48 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'coretick_sis'@'localhost' for table `estados`.`id_estados` in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 14
+[17-May-2024 00:38:51 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'coretick_sis'@'localhost' for table `estados`.`id_estados` in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 14
+[17-May-2024 00:38:55 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'coretick_sis'@'localhost' for table `estados`.`id_estados` in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 14
+[17-May-2024 00:39:03 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'coretick_sis'@'localhost' for table `estados`.`id_estados` in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 14
+[17-May-2024 00:39:05 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'coretick_sis'@'localhost' for table `estados`.`id_estados` in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 14
+[17-May-2024 00:39:05 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'coretick_sis'@'localhost' for table `estados`.`id_estados` in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 14
+[17-May-2024 00:39:06 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'coretick_sis'@'localhost' for table `estados`.`id_estados` in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 14
+[17-May-2024 00:39:06 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'coretick_sis'@'localhost' for table `estados`.`id_estados` in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 14
+[17-May-2024 00:39:06 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'coretick_sis'@'localhost' for table `estados`.`id_estados` in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 14
+[17-May-2024 00:39:06 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'coretick_sis'@'localhost' for table `estados`.`id_estados` in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 14
+[17-May-2024 00:39:07 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'coretick_sis'@'localhost' for table `estados`.`id_estados` in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 14
+[17-May-2024 00:39:07 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'coretick_sis'@'localhost' for table `estados`.`id_estados` in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 14
+[17-May-2024 00:39:07 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'coretick_sis'@'localhost' for table `estados`.`id_estados` in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php:14
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/instructores.php on line 14
+[17-May-2024 02:44:47 America/New_York] PHP Warning:  require_once(../../db/conexion.php): Failed to open stream: No such file or directory in /home/coretick/sis.coreticket.co/vistas/admin/tablas/vehiculos.php on line 2
+[17-May-2024 02:44:47 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '../../db/conexion.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/coretick/sis.coreticket.co/vistas/admin/tablas/vehiculos.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/vehiculos.php on line 2
+[17-May-2024 02:45:25 America/New_York] PHP Warning:  require_once(../../db/conexion.php): Failed to open stream: No such file or directory in /home/coretick/sis.coreticket.co/vistas/admin/tablas/vehiculos.php on line 2
+[17-May-2024 02:45:25 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '../../db/conexion.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/coretick/sis.coreticket.co/vistas/admin/tablas/vehiculos.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/vehiculos.php on line 2
+[17-May-2024 02:45:55 America/New_York] PHP Warning:  require_once(../../db/conexion.php): Failed to open stream: No such file or directory in /home/coretick/sis.coreticket.co/vistas/admin/tablas/vehiculos.php on line 2
+[17-May-2024 02:45:55 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '../../db/conexion.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/coretick/sis.coreticket.co/vistas/admin/tablas/vehiculos.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/tablas/vehiculos.php on line 2

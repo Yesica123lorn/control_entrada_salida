@@ -1,0 +1,47 @@
+[17-May-2024 01:32:14 America/New_York] PHP Warning:  Undefined variable $placa in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php on line 55
+[17-May-2024 01:32:14 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_placa' cannot be null in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php:55
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php(55): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php on line 55
+[17-May-2024 01:34:14 America/New_York] PHP Warning:  Undefined variable $placa in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php on line 55
+[17-May-2024 01:34:14 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_placa' cannot be null in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php:55
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php(55): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php on line 55
+[17-May-2024 08:20:12 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'placa' in 'where clause' in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php:34
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php(34): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php on line 34
+[17-May-2024 08:20:57 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'placa' in 'where clause' in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php:34
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php(34): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php on line 34
+[17-May-2024 08:21:16 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'placa' in 'where clause' in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php:34
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php(34): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php on line 34
+[17-May-2024 08:21:21 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'placa' in 'where clause' in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php:34
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php(34): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php on line 34
+[17-May-2024 08:21:52 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'placa' in 'where clause' in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php:34
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php(34): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php on line 34
+[17-May-2024 08:22:00 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'placa' in 'where clause' in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php:34
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php(34): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php on line 34
+[17-May-2024 08:28:33 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'placa' in 'where clause' in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php:34
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php(34): PDO->prepare()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/vigilante/entradas/verificar.php on line 34

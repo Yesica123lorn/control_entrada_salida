@@ -1,0 +1,120 @@
+[16-May-2024 22:26:40 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/licencia.php on line 229
+[16-May-2024 22:26:40 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/licencia.php on line 229
+[16-May-2024 22:44:29 America/New_York] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/coretick/sis.coreticket.co/superadministrador/crear.php on line 7
+[16-May-2024 22:46:37 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/licencia.php on line 229
+[16-May-2024 22:46:37 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/licencia.php on line 229
+[16-May-2024 22:55:23 America/New_York] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/coretick/sis.coreticket.co/superadministrador/registro_adm.php on line 11
+[16-May-2024 23:23:26 America/New_York] PHP Warning:  file_put_contents(/home/coretick/sis.coreticket.co/superadministrador/images/6646cdae15484.png): Failed to open stream: No such file or directory in /home/coretick/sis.coreticket.co/superadministrador/registro_adm.php on line 37
+[16-May-2024 23:39:42 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'usuario.id_rol' in 'on clause' in /home/coretick/sis.coreticket.co/superadministrador/index.php:27
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/superadministrador/index.php(27): PDO->query()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 27
+[16-May-2024 23:39:47 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'usuario.id_rol' in 'on clause' in /home/coretick/sis.coreticket.co/superadministrador/index.php:27
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/superadministrador/index.php(27): PDO->query()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 27
+[16-May-2024 23:50:55 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.licencia != '65e5b3e7a66b7'' at line 2 in /home/coretick/sis.coreticket.co/superadministrador/index.php:27
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/superadministrador/index.php(27): PDO->query()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 27
+[16-May-2024 23:52:07 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.licencia != '65e5b3e7a66b7'' at line 2 in /home/coretick/sis.coreticket.co/superadministrador/index.php:27
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/superadministrador/index.php(27): PDO->query()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 27
+[16-May-2024 23:52:57 America/New_York] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 22
+[16-May-2024 23:53:04 America/New_York] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 22
+[16-May-2024 23:53:28 America/New_York] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 22
+[16-May-2024 23:53:53 America/New_York] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 22
+[16-May-2024 23:56:19 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/licencia.php on line 229
+[16-May-2024 23:56:19 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/licencia.php on line 229
+[16-May-2024 23:57:28 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/licencia.php on line 229
+[16-May-2024 23:57:28 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/licencia.php on line 229
+[17-May-2024 08:40:17 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[17-May-2024 08:40:17 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[17-May-2024 09:17:18 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345678987' for key 'PRIMARY' in /home/coretick/sis.coreticket.co/superadministrador/crear.php:32
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/superadministrador/crear.php(32): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/superadministrador/crear.php on line 32
+[17-May-2024 09:19:01 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345678987' for key 'PRIMARY' in /home/coretick/sis.coreticket.co/superadministrador/crear.php:32
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/superadministrador/crear.php(32): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/superadministrador/crear.php on line 32
+[17-May-2024 09:20:01 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345678987' for key 'PRIMARY' in /home/coretick/sis.coreticket.co/superadministrador/crear.php:32
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/superadministrador/crear.php(32): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/superadministrador/crear.php on line 32
+[17-May-2024 09:20:54 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345678987' for key 'PRIMARY' in /home/coretick/sis.coreticket.co/superadministrador/crear.php:32
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/superadministrador/crear.php(32): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/superadministrador/crear.php on line 32
+[17-May-2024 09:28:10 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345678987' for key 'PRIMARY' in /home/coretick/sis.coreticket.co/superadministrador/crear.php:30
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/superadministrador/crear.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/superadministrador/crear.php on line 30
+[17-May-2024 11:54:03 America/New_York] PHP Warning:  file_put_contents(/home/coretick/sis.coreticket.co/superadministrador/images/66477d9b411f4.png): Failed to open stream: No such file or directory in /home/coretick/sis.coreticket.co/superadministrador/registro_adm.php on line 37
+[17-May-2024 11:54:07 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[17-May-2024 11:54:07 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[20-May-2024 08:25:45 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[20-May-2024 08:25:45 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[20-May-2024 08:35:56 America/New_York] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/coretick/sis.coreticket.co/superadministrador/crear.php on line 7
+[20-May-2024 08:36:04 America/New_York] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/coretick/sis.coreticket.co/superadministrador/crear.php on line 7
+[20-May-2024 09:19:12 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[20-May-2024 09:19:12 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[20-May-2024 09:21:33 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[20-May-2024 09:21:33 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[20-May-2024 09:36:41 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[20-May-2024 09:36:41 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[20-May-2024 09:36:46 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[20-May-2024 09:36:46 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[20-May-2024 09:37:56 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[20-May-2024 09:37:56 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 226
+[20-May-2024 09:39:10 America/New_York] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/coretick/sis.coreticket.co/superadministrador/crear.php on line 7
+[20-May-2024 08:39:26 America/Bogota] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/coretick/sis.coreticket.co/superadministrador/crearlicencia.php on line 8
+[20-May-2024 08:39:57 America/Bogota] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/coretick/sis.coreticket.co/superadministrador/crearlicencia.php on line 8
+[20-May-2024 08:44:41 America/Bogota] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/coretick/sis.coreticket.co/superadministrador/crearlicencia.php on line 8
+[20-May-2024 09:44:50 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:44:50 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:44:52 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:44:52 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:44:52 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:44:52 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:45:20 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:45:20 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:45:24 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:45:24 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:45:51 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:45:51 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:46:32 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:46:32 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:49:27 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:49:27 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:50:01 America/New_York] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/coretick/sis.coreticket.co/superadministrador/registro_adm.php on line 11
+[20-May-2024 09:50:41 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 09:50:41 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 11:19:56 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 11:19:56 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 22:40:20 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[20-May-2024 22:40:20 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[21-May-2024 09:41:45 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[21-May-2024 09:41:45 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[21-May-2024 09:50:45 America/New_York] PHP Warning:  file_put_contents(/home/coretick/sis.coreticket.co/superadministrador/images/664ca6b57242f.png): Failed to open stream: No such file or directory in /home/coretick/sis.coreticket.co/superadministrador/registro_adm.php on line 37
+[21-May-2024 09:50:47 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[21-May-2024 09:50:47 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[21-May-2024 10:01:59 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[21-May-2024 10:01:59 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[22-May-2024 09:24:53 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[22-May-2024 09:24:53 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[22-May-2024 10:44:31 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[22-May-2024 10:44:31 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[22-May-2024 11:23:50 America/New_York] PHP Warning:  Undefined variable $usu in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[22-May-2024 11:23:50 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/coretick/sis.coreticket.co/superadministrador/index.php on line 227
+[22-May-2024 10:50:00 America/Bogota] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/coretick/sis.coreticket.co/superadministrador/crearlicencia.php on line 8

@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(0deg, rgba(0,0,0,10), rgba(0,0,0,0.3)), url(../images/hacker-cracking-binary-code-data-security.jpg);
+    /* background: url(../img/lissta.png) no-repeat center top; */
+    background-size: 100%;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 10px;
+    width:92%;
+    margin-left: 4%;
+    background-color: #ffffff7a;
+    text-align: left;
+    border: collapse;
+    Text-align:Center;
+}
+
+td,th{
+    font-weight: bold;
+    padding:20px;
+    
+}
+
+thead{
+    border-bottom: solid 5px #000;
+    background-color: #3F51B5;
+}
+
+a{ 
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+a#re{ 
+    text-decoration: none;
+    
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+table button{
+    text-align: center;
+    height: 36px;
+    
+    background-color: #ECAB0F;
+    border-radius:4px;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:  #f7d547;
+}

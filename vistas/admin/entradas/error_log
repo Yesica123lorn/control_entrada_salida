@@ -1,0 +1,66 @@
+[16-May-2024 11:09:14 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'salida_fecha_hora' cannot be null in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php:44
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 44
+[16-May-2024 12:09:36 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'salida_fecha_hora' cannot be null in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php:44
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 44
+[16-May-2024 12:09:45 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'salida_fecha_hora' cannot be null in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php:44
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 44
+[16-May-2024 23:30:09 America/New_York] PHP Warning:  Undefined variable $placa in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 55
+[16-May-2024 23:30:09 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_placa' cannot be null in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php:55
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php(55): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 55
+[16-May-2024 23:55:09 America/New_York] PHP Warning:  Undefined variable $placa in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 55
+[16-May-2024 23:55:09 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_placa' cannot be null in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php:55
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php(55): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 55
+[16-May-2024 23:56:38 America/New_York] PHP Warning:  Undefined variable $placa in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 55
+[16-May-2024 23:56:38 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_placa' cannot be null in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php:55
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php(55): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 55
+[16-May-2024 23:58:23 America/New_York] PHP Warning:  Undefined variable $placa in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 55
+[16-May-2024 23:58:23 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_placa' cannot be null in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php:55
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php(55): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 55
+[17-May-2024 00:02:14 America/New_York] PHP Warning:  Undefined variable $placa in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 61
+[17-May-2024 00:02:14 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_placa' cannot be null in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php:61
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 61
+[17-May-2024 00:02:18 America/New_York] PHP Warning:  Undefined variable $placa in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 61
+[17-May-2024 00:02:18 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_placa' cannot be null in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php:61
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 61
+[17-May-2024 00:06:22 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_placa' cannot be null in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php:64
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php(64): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 64
+[17-May-2024 00:06:28 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_placa' cannot be null in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php:64
+Stack trace:
+#0 /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php(64): PDOStatement->execute()
+#1 {main}
+  thrown in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 64
+[20-May-2024 00:22:13 America/New_York] PHP Warning:  Undefined variable $idPlaca in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 98
+[22-May-2024 09:01:59 America/New_York] PHP Warning:  Undefined variable $idPlaca in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 98
+[22-May-2024 09:02:10 America/New_York] PHP Warning:  Undefined variable $idPlaca in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 98
+[22-May-2024 09:02:18 America/New_York] PHP Warning:  Undefined variable $idPlaca in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 98
+[22-May-2024 09:02:51 America/New_York] PHP Warning:  Undefined variable $idPlaca in /home/coretick/sis.coreticket.co/vistas/admin/entradas/verificar.php on line 98
