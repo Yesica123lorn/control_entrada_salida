@@ -80,9 +80,8 @@ $fila = $info->fetch();
                     aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
                     <span>Entrada / Salida</span>
-
                 </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div id="collapsePages" class="collapse show" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Usuario</h6>
                         <a class="collapse-item" href="./crear/usuario.php">Crear Usuario</a>
@@ -95,31 +94,29 @@ $fila = $info->fetch();
                         <a class="collapse-item" href="./crear/salida.php">Salida</a>
                         <a class="collapse-item" href="./tablas/salida.php">Informes de Salida</a>
                     </div>
-                     <div class="bg-white py-2 collapse-inner rounded">
+                    <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Dispositivos</h6>
                         <a class="collapse-item" href="./crear/dispositivo.php">Crear Dispositivos</a>
                         <a class="collapse-item" href="./tablas/dispositivos.php">Informes de Dispositivos</a>
                     </div>
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Vehiculos</h6>
-                        <a class="collapse-item" href="./crear/vehiculo.php">Crear Vehiculos</a>
-                        <a class="collapse-item" href="./tablas/vehiculos.php">Informes de Vehiculos</a>
+                        <h6 class="collapse-header">Vehículos</h6>
+                        <a class="collapse-item" href="./crear/vehiculo.php">Crear Vehículos</a>
+                        <a class="collapse-item" href="./tablas/vehiculos.php">Informes de Vehículos</a>
                     </div>
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Instructores</h6>
-                        <a class="collapse-item" href="tablas/instructores.php">Informes de Instructores</a>
+                        <a class="collapse-item" href="./tablas/instructores.php">Informes de Instructores</a>
                     </div>
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Aprendiz</h6>
-                        <a class="collapse-item" href="tablas/aprendiz.php">Informes de Aprendiz</a>
+                        <a class="collapse-item" href="./tablas/aprendiz.php">Informes de Aprendiz</a>
                     </div>
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Visitante</h6>
-                        <a class="collapse-item" href="tablas/visitante.php">Informes de Visitantes</a>
+                        <a class="collapse-item" href="./tablas/visitante.php">Informes de Visitantes</a>
                     </div>
                 </div>
-
-
             </li>
 
             <!-- Divider -->
