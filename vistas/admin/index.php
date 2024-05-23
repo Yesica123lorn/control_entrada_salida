@@ -118,7 +118,6 @@ $fila = $info->fetch();
                     </div>
                 </div>
             </li>
-
             <!-- Divider -->
             <hr class="sidebar-divider">
 
