@@ -60,6 +60,7 @@ if ($total_paginas == 0) {
                 <thead class="table-primary">
                     <tr>
                         <th>Documento</th>
+                        <th>Codigo de barras</th>
                         <th>Nombre</th>
                         <th>Correo</th>
                         <th>Estado</th>
