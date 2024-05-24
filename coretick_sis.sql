@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-05-2024 a las 05:14:13
+-- Tiempo de generación: 24-05-2024 a las 02:18:13
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -451,7 +451,7 @@ ALTER TABLE `color`
 -- AUTO_INCREMENT de la tabla `entrada_salidas`
 --
 ALTER TABLE `entrada_salidas`
-  MODIFY `id_entrada_salida` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62;
+  MODIFY `id_entrada_salida` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
 
 --
 -- AUTO_INCREMENT de la tabla `estados`
