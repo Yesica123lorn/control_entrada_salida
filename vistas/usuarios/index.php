@@ -16,7 +16,12 @@ if (isset($_SESSION['documento'])) {
 
         $documento = $_SESSION['documento'];
 
-        $sql = "SELECT * FROM usuario WHERE documento = ?";
+        $sql = "SELECT u.*, r.nom_rol AS rol_nombre, td.nom_doc AS tipo_documento_nombre, e.nom_estado AS estado_nombre
+                FROM usuario u
+                LEFT JOIN rol r ON u.id_rol = r.id_rol
+                LEFT JOIN tipo_documento td ON u.id_tipo_documento = td.id_tipo_documento
+                LEFT JOIN estados e ON u.id_estados = e.id_estados
+                WHERE u.documento = ?";
         $stmt = $conn->prepare($sql);
         $stmt->execute([$documento]);
         $userData = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -124,11 +129,19 @@ if (isset($_SESSION['documento'])) {
                     <th>Valor</th>
                 </tr>
                 <?php foreach ($userData as $key => $value): ?>
-                    <tr>
-                        <td><?php echo ucwords(str_replace('_', ' ', $key)); ?>:</td>
-                        <td><?php echo htmlspecialchars($value); ?></td>
-                    </tr>
+                    <?php if (!in_array($key, ['id_rol', 'id_tipo_documento', 'id_estados', 'contrasena'])): ?>
+                        <tr>
+                            <td><?php echo ucwords(str_replace('_', ' ', $key)); ?>:</td>
+                            <td><?php echo htmlspecialchars($value); ?></td>
+                        </tr>
+                    <?php endif; ?>
                 <?php endforeach; ?>
+                <?php if (!empty($userData['codigo_barras'])): ?>
+                    <tr>
+                        <td>Código de Barras:</td>
+                        <td><img src="<?php echo '../../../images/' . $userData['codigo_barras']; ?>" alt="Código de Barras"></td>
+                    </tr>
+                <?php endif; ?>
             </table>
             <div class="btn-container">
                 <a class="btn btn-success" href="excelusuario.php">Exportar a Excel</a>
